@@ -19,6 +19,7 @@
     // Q1 correct code above
 
 
+
     // Q2 my attempt not exactly correct below
     // function arrLength(arr) {
     //     return arr
@@ -33,8 +34,20 @@
     // console.log(arrLength([1,2,3,4]))
     // Q2 correct code above 
 
-    // Q3 my attempt below
-    function lastEle(arr) {
-        return arr[arr.length-1];
-    } 
-    console.log(lastEle([3,2,0,6,2]))
+
+
+    // Q3 my attempt correct below
+    // function lastEle(arr) {
+    //     return arr[arr.length-1];
+    // } 
+    // console.log(lastEle([3,2,0,6,2]))
+    // Q3 my attempt correct above
+
+
+
+// Q4 my attempt below
+function arrSum(arr) {
+    return arr(arr.length0 + arr.length1 + arr.length2)
+}
+console.log(arrSum[2,2,2])
+// Q4 my attempt above 7:15
