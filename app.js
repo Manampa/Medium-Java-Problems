@@ -65,7 +65,18 @@
 
 
 
-// Q5 my attempt below
+// Q5 correct code below
+// function progressiveSum(num) {
+//     let sum = 0
+//     for (let i = 1; i <= num; ++i){
+//         sum = sum + i;
+//     }
+//     return sum;
+// }
+// console.log(progressiveSum(3));
+// Q5 correct code above
+
+Q
 
 
 
