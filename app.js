@@ -45,9 +45,41 @@
 
 
 
-// Q4 my attempt below
-function arrSum(arr) {
-    return arr(arr.length0 + arr.length1 + arr.length2)
-}
-console.log(arrSum[2,2,2])
+// Q4 my attempt below Wrong
+// function arrSum(arr) {
+    //     return arr(arr.length0 + arr.length1 + arr.length2)
+    // }
+    // console.log(arrSum[2,2,2])
 // Q4 my attempt above 7:15
+
+// Q4 correct code below
+// function arrSum(arr) {
+//     let sum = 0;
+//     for(let i = 0; i < arr.length; ++i) {
+//         sum = sum + arr[i];
+//     }
+//     return sum;
+// }
+// console.log(arrSum([2,2,2]))
+// Q4 correct code above
+
+
+
+// Q5 my attempt below
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
