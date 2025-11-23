@@ -76,7 +76,20 @@
 // console.log(progressiveSum(3));
 // Q5 correct code above
 
-Q
+
+
+// Q6 correct code below
+function calcTime(seconds) {
+    let timerMinutes = Math.floor(seconds/60);
+    let timerSeconds = seconds % 60;
+    
+    if (timerMinutes.toString().length ===1) {
+        timerMinutes ='0' + timerMinutes
+    }
+    return timerMinutes + ':' + timerSeconds;
+}
+console.log(calcTime(500))
+// Q6 correct code above
 
 
 
