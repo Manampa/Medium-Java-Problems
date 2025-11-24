@@ -120,16 +120,23 @@
         // Q8 correct code above INCREMENTING FOR LOOP
         
 // Q8 correct code below DECREMENTING FOR LOOP28:00
+// function reverseString(str) {
+    //     let reversedString = '';
+    //     for (let i = str.length -1; i >= 0; --i) {
+        //         reversedString = reversedString + str[i];
+        //     }
+        //     return reversedString;
+        // }
+        // console.log(reverseString('abc'))
+        // Q8 correct code above DECREMENTING FOR LOOP28:00
+        
+// Q8 correct code below .reverse
 function reverseString(str) {
-    let reversedString = '';
-    for (let i = str.length -1; i >= 0; --i) {
-        reversedString = reversedString + str[i];
-    }
-    return reversedString;
+    return str.split('').reverse().join('') 
 }
 console.log(reverseString('abc'))
-
-
+// Q8 correct code above .reverse
+        
 
 
 
