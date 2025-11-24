@@ -108,7 +108,16 @@
 
 
 
-// Q8 correct code below
+// Q8 correct code below INCREMENTING FOR LOOP
+// function reverseString(str) {
+//     let reversedString = '';
+//     for (let i = 0; i < str.length; ++i ) {
+//         reversedString = str[i] + reversedString;
+//     }
+//     return reversedString
+// }
+// console.log(reverseString('abc'))
+// Q8 correct code above INCREMENTING FOR LOOP
 
 
 
