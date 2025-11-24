@@ -79,17 +79,38 @@
 
 
 // Q6 correct code below
-function calcTime(seconds) {
-    let timerMinutes = Math.floor(seconds/60);
-    let timerSeconds = seconds % 60;
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor(seconds/60);
+//     let timerSeconds = seconds % 60;
     
-    if (timerMinutes.toString().length ===1) {
-        timerMinutes ='0' + timerMinutes
-    }
-    return timerMinutes + ':' + timerSeconds;
-}
-console.log(calcTime(500))
+//     if (timerMinutes.toString().length ===1) {
+//         timerMinutes ='0' + timerMinutes
+//     }
+//     return timerMinutes + ':' + timerSeconds;
+// }
+// console.log(calcTime(500))
 // Q6 correct code above
+
+
+
+// Q7 correct code below
+// function getMax(arr) {
+//     let max = arr[0];
+//     for(let i = 0; i <= arr.length; ++i){
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         } 
+//     }
+//     return max
+// }
+// console.log(getMax([1,2,3]))
+// Q7 correct code above
+
+
+
+// Q8 correct code below
+
+
 
 
 
