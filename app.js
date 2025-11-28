@@ -131,11 +131,11 @@
         // Q8 correct code above DECREMENTING FOR LOOP28:00
         
 // Q8 correct code below .reverse
-function reverseString(str) {
-    return str.split('').reverse().join('') 
-}
-console.log(reverseString('abc'))
-// Q8 correct code above .reverse
+// function reverseString(str) {
+//     return str.split('').reverse().join('') 
+// }
+// console.log(reverseString('abc'))
+// Q8 correct code above .reverse33:30
         
 
 
