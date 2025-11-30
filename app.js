@@ -136,7 +136,14 @@
 // }
 // console.log(reverseString('abc'))
 // Q8 correct code above .reverse33:30
-        
+
+
+
+// Q9 correct code below
+function converToZeros(arr){
+
+}   
+console.log(converToZeros([5,100,0]))     
 
 
 
