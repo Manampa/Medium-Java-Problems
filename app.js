@@ -157,11 +157,21 @@
 // Q9 correct code above ----- solution2 array 'fill'
 
 // Q9 correct code below ----- solution3 array .map
-function convertToZeros(arr) {
-    return arr.map(elem => 0)
-}
-console.log(convertToZeros([1,2,3,4,5,]))
+// function convertToZeros(arr) {
+//     return arr.map(elem => 0)
+// }
+// console.log(convertToZeros([1,2,3,4,5,]))
+// Q9 correct code above ----- solution3 array .map
 
+
+
+// Q10 solution 1 for loop below
+function removeApples(arr) {
+    for (let i = 0; i < arr.length; ++i)
+
+}
+console.log*removeApples(['banana', 'oranges', 'apples'])
+// Q10 solution 1 for loop above
 
 
 
