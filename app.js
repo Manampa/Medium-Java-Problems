@@ -139,12 +139,28 @@
 
 
 
-// Q9 correct code below
-function converToZeros(arr){
+// Q9 correct code below ----- solution1 for loop
+// function convertToZeros(arr){
+//     for (let i = 0; i < arr.length; ++i) {
+//         arr[i] = 0
+//     }
+//     return arr; 
+// }   
+// console.log(convertToZeros([1,2,3,4,5]))     
+// Q9 correct code above ----- solution1 for loop
 
-}   
-console.log(converToZeros([5,100,0]))     
+// Q9 correct code below ----- solution2 array 'fill'
+// function convertToZeros(arr) {
+//     return new Array(arr.length).fill(0);
+// }
+// console.log(convertToZeros([1,2,3,4,5]))
+// Q9 correct code above ----- solution2 array 'fill'
 
+// Q9 correct code below ----- solution3 array .map
+function convertToZeros(arr) {
+    return arr.map(elem => 0)
+}
+console.log(convertToZeros([1,2,3,4,5,]))
 
 
 
