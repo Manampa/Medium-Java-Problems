@@ -169,14 +169,14 @@
 function removeApples(arr) {
     let noApples = []
     for (let i = 0; i < arr.length; ++i) {
-        if (arr[i] !== 'apples'){
+        if (arr[i] !== 'apple'){
             noApples.push(arr[i])
         }
     }
     return noApples;
 
 }
-console.log(removeApples(['banana', 'oranges', 'apples']))
+console.log(removeApples(['banana', 'oranges', 'apple']))
 // Q10 solution 1 for loop above
 
 
