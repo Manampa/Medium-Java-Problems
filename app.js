@@ -187,8 +187,10 @@
 
 // Q11 For Loop below
 function filterOutFalsy(arr) {
-    
+    return arr.filter(elem => !!elem === true)
 }
+
+console.log(filterOutFalsy(['', 500, null, false, 0]))
 
 
 
