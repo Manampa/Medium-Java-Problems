@@ -185,13 +185,18 @@
 // console.log(removeapples(['banana', 'oranges', 'apple']))
 // Q10 solution 2(array filter) for loop above 46:00
 
-// Q11 For Loop below
+// Q11 arr.filter below
+// function filterOutFalsy(arr) {
+//     return arr.filter(elem => !!elem === true)
+// }
+
+// console.log(filterOutFalsy(['', 500, null, false, 0]))
+// Q11 arr.filter below
+
+// Q11 for loop below
 function filterOutFalsy(arr) {
-    return arr.filter(elem => !!elem === true)
+    for (let)
 }
-
-console.log(filterOutFalsy(['', 500, null, false, 0]))
-
 
 
 
