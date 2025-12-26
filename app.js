@@ -191,11 +191,13 @@
 // }
 
 // console.log(filterOutFalsy(['', 500, null, false, 0]))
-// Q11 arr.filter below
+// Q11 arr.filter above
 
 // Q11 for loop below
 function filterOutFalsy(arr) {
-    for (let)
+    for (let i = 0; i < arr.length; ++i) {
+        if (arr[i] )
+    }
 }
 
 
