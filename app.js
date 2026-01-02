@@ -207,6 +207,12 @@ console.log(filterOutFalsy(['',NaN, 500, null, false, 0]))
 // Q11 for loop above
 
 // Q12 below 
+function convertToBoolean(arr) {
+    return arr.map(elem => !!elem)
+}
+
+console.log(convertToBoolean(['',NaN,500,null,false,0]))
+// Q12 above
 
 
 
